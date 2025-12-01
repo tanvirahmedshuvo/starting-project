@@ -1,16 +1,69 @@
+# Node modules
 node_modules/
+
+# Build output
 dist/
 build/
-.DS_Store
+
+# Local environment files
 .env
 .env.local
-.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
 npm-debug.log*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/.idea/
-/.vscode/
-/.DS_Store
-/.cache
-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Vite cache
+.vite/
+
+# Coverage and testing
+coverage/
+.nyc_output/
+
+# Misc
 *.log
+
+# Optional: lockfiles - choose whether or not to ignore (committing lockfile is recommended)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Optional: build or bundler caches
+.cache/
+.svelte-kit/
+
+# Ignore local debug directories
+.vs
+
+# MacOS
+__MACOSX/
+
+# Windows
+desktop.ini
+
+# npm package distribution
+*.tgz
+
+# Storybook
+out/
+
+# Typescript
+*.tsbuildinfo
+
+# Local IDE files
+*.sublime-workspace
+
+# End of file
